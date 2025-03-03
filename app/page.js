@@ -1,11 +1,26 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
-      <h1 className="text-4xl font-bold">Cześć, jestem Tadeusz </h1>
-      <p className="text-lg text-gray-400 mt-2">Full Stack Developer | Python & React</p>
-    </main>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white text-center px-6">
+      <h1 className="text-5xl font-extrabold tracking-tight">
+        Cześć, jestem <span className="text-blue-400">Tadeusz</span>
+      </h1>
+      <p className="text-lg text-gray-300 mt-4">
+        Full Stack Developer | Python & React
+      </p>
+      <div className="mt-6">
+        <Link href="/about">
+          <a className="px-6 py-3 bg-blue-500 hover:bg-blue-700 transition-all text-white rounded-lg text-lg shadow-lg">
+            O mnie
+          </a>
+        </Link>
+        <Link href="/projects">
+          <a className="ml-4 px-6 py-3 bg-gray-700 hover:bg-gray-500 transition-all text-white rounded-lg text-lg shadow-lg">
+            Projekty
+          </a>
+        </Link>
+      </div>
+    </div>
   );
 }
