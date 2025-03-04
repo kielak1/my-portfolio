@@ -8,20 +8,20 @@ export default function About() {
           </p>
           
           <h2 className="text-2xl font-semibold mt-8">Specjalizacje</h2>
-          <ul className="mt-4 text-gray-400 max-w-2xl text-center list-disc list-inside">
-              <li className="before:content-['✓'] before:mr-2">Backend: Python (Django, FastAPI), Java (Spring), PostgreSQL</li>
-              <li className="before:content-['✓'] before:mr-2">Frontend: React, JavaScript, HTML/CSS, Bootstrap</li>
-              <li className="before:content-['✓'] before:mr-2">Automatyzacja i testowanie: Selenium, Robot Framework</li>
-              <li className="before:content-['✓'] before:mr-2">AI i modele językowe: RAG, trening i wdrażanie modeli AI</li>
-              <li className="before:content-['✓'] before:mr-2">Optymalizacja aplikacji: analiza logów, profilowanie kodu, tuning zapytań SQL</li>
-              <li className="before:content-['✓'] before:mr-2">Infrastruktura: Nginx, Gunicorn, Celery, Linux (RHEL, Rocky Linux)</li>
+          <ul className="mt-4 text-gray-400 max-w-2xl text-center space-y-2">
+              <li className="flex items-center"><span className="text-green-400 mr-2">✓</span> Backend: Python (Django, FastAPI), Java (Spring), PostgreSQL</li>
+              <li className="flex items-center"><span className="text-green-400 mr-2">✓</span> Frontend: React, JavaScript, HTML/CSS, Bootstrap</li>
+              <li className="flex items-center"><span className="text-green-400 mr-2">✓</span> Automatyzacja i testowanie: Selenium, Robot Framework</li>
+              <li className="flex items-center"><span className="text-green-400 mr-2">✓</span> AI i modele językowe: RAG, trening i wdrażanie modeli AI</li>
+              <li className="flex items-center"><span className="text-green-400 mr-2">✓</span> Optymalizacja aplikacji: analiza logów, profilowanie kodu, tuning zapytań SQL</li>
+              <li className="flex items-center"><span className="text-green-400 mr-2">✓</span> Infrastruktura: Nginx, Gunicorn, Celery, Linux (RHEL, Rocky Linux)</li>
           </ul>
 
           <h2 className="text-2xl font-semibold mt-8">Doświadczenie</h2>
-          <ul className="mt-4 text-gray-400 max-w-2xl text-center list-disc list-inside">
-              <li className="before:content-['✓'] before:mr-2">Obecnie pracuję w ORLEN S.A., wcześniej w PGNiG S.A. oraz ZUS</li>
-              <li className="before:content-['✓'] before:mr-2">Realizowałem projekty dla sektora bankowego i telekomunikacyjnego</li>
-              <li className="before:content-['✓'] before:mr-2">Tworzyłem systemy monitorowania, zarządzania adresacją IP, akceptacji inicjatyw IT</li>
+          <ul className="mt-4 text-gray-400 max-w-2xl text-center space-y-2">
+              <li className="flex items-center"><span className="text-green-400 mr-2">✓</span> Obecnie pracuję w ORLEN S.A., wcześniej w PGNiG S.A. oraz ZUS</li>
+              <li className="flex items-center"><span className="text-green-400 mr-2">✓</span> Realizowałem projekty dla sektora bankowego i telekomunikacyjnego</li>
+              <li className="flex items-center"><span className="text-green-400 mr-2">✓</span> Tworzyłem systemy monitorowania, zarządzania adresacją IP, akceptacji inicjatyw IT</li>
           </ul>
 
           <h2 className="text-2xl font-semibold mt-8">Języki i umiejętności miękkie</h2>
