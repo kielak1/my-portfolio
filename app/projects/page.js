@@ -53,6 +53,15 @@ const projects = [
     complexity: "Mała",
     technologies: ["React", "Spring", "PostgreSQL"],
   },
+  {
+    title: "Homeopatyczny system doradczy",
+    description: "Praca magisterska",
+    link: "",
+    repo: "",
+    production: false,
+    complexity: "Średnia",
+    technologies: ["Prolog"],
+  },
 
 ];
 
