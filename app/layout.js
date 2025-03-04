@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Kielak's Portfolio",
   description: "Full Stack Developer | Python & React",
+  icons: {
+    icon: "/favicon.ico", // Możesz też dodać PNG lub SVG
+    apple: "/apple-touch-icon.png", // Opcjonalnie dla Apple devices
+  },
 };
 
 export default function RootLayout({ children }) {
