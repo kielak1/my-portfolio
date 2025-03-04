@@ -16,8 +16,8 @@ export const metadata = {
   title: "Kielak's Portfolio",
   description: "Full Stack Developer | Python & React",
   icons: {
-    icon: "/favicon.ico", // Możesz też dodać PNG lub SVG
-    apple: "/apple-touch-icon.png", // Opcjonalnie dla Apple devices
+    icon: "/favicon.ico", 
+    apple: "/apple-touch-icon.png", 
   },
 };
 
