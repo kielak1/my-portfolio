@@ -1,0 +1,2 @@
+# Create a zip file excluding the node_modules directory
+zip -r backup.zip . -x "node_modules/*"

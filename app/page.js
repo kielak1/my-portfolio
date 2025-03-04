@@ -10,15 +10,11 @@ export default function Home() {
         Full Stack Developer | Python & React
       </p>
       <div className="mt-6">
-        <Link href="/about">
-          <a className="px-6 py-3 bg-blue-500 hover:bg-blue-700 transition-all text-white rounded-lg text-lg shadow-lg">
+        <Link href="/about" className="px-6 py-3 bg-blue-500 hover:bg-blue-700 transition-all text-white rounded-lg text-lg shadow-lg">
             O mnie
-          </a>
         </Link>
-        <Link href="/projects">
-          <a className="ml-4 px-6 py-3 bg-gray-700 hover:bg-gray-500 transition-all text-white rounded-lg text-lg shadow-lg">
+        <Link href="/projects" className="ml-4 px-6 py-3 bg-gray-700 hover:bg-gray-500 transition-all text-white rounded-lg text-lg shadow-lg">
             Projekty
-          </a>
         </Link>
       </div>
     </div>
