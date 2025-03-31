@@ -1,6 +1,15 @@
 const projects = [
   {
-    title: "AvanTIc",
+    title: "Braggly",
+    description: "Platforma do analizy  danych dyfrakcji rentgenowskiej (XRD)",
+    link: "https://braggly.kielak.com/",
+    repo: "",
+    production: true,
+    complexity: "Zaawansowana",
+    technologies: ["Spring Boot", "Next.js", "Java", "Stripe"],
+  },
+  {
+    title: "Aprobo",
     description: "System wspierający proces akceptacji inicjatyw informatycznych w Biurze Informatyki Górnictwa Naftowego i Gazownictwa w ORLEN S.A.",
     link: "https://aprobo.kielak.com/",
     repo: "https://github.com/kielak1/aprobo",
